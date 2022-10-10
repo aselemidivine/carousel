@@ -50,7 +50,7 @@ const showNextFourItems = (operator) => {
     for (i = index_0; i <  item_count; i++){
         if (slides[i]){
         slides[i].style.display = "block"; 
-        }
+        } 
     }
 
     
@@ -59,7 +59,7 @@ const showNextFourItems = (operator) => {
 showNextFourItems('+'); // Default
   
 carouselBtnRight.addEventListener('click', () =>{
-	showNextFourItems('+');           
+    showNextFourItems('+'); 
 })
 carouselBtnLeft.addEventListener('click', () =>{
 	showNextFourItems('-');           
